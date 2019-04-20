@@ -1,0 +1,22 @@
+$(document).ready(function(){
+  $("#logout").click(function(){
+      var ans=confirm("Do you Want to Logout this page?");
+      if(ans)
+      {
+          $.ajax({
+            url:"logout.php",
+            method:"POST",
+            data:{
+                confirm:"logout"
+            },
+            success:function(data)
+            {
+                if(data=="success")
+                {
+                    window.location="index.php";
+                }
+            }
+          });
+      }
+  });
+});

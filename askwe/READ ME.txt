@@ -1,0 +1,24 @@
+1.addQuestion.js and addQuestion.php files are add question to the server
+2.fetchQuestion.js and postAnswer.php files are add answer to the server
+3.login.js add login.php file are login perpose
+4.signup.js and signup.php files are signup perpose
+5.logout.js and logout.php files are logout perpose
+6.view.js and view php files are view detetails of the user
+7.connection file for the database connection
+8.footer.php is the footer of the website
+9.askwe.php is the second primary file user can redirect this page when login
+10.contect.php update the user contect detetails
+11 education.php update the user education detetails
+12.update.php update the user detetails
+
+
+
+
+
+
+         /////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// website hosted link  https://guvitamil.000webhostapp.com/index.php                            ///
+       ///          N.TAMILARASAN                                                                        ///
+      ///           INFORMATION TECHNOLOGY                                                              ///
+     ///            EXCEL ENGINEERING COLLEGE                                                          ///
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
