@@ -56,7 +56,7 @@ if($num==1)
                                 </div>
                                 <div class="col-sm-9">
                                   <input type="number" class="form-control" name="logpass" id="for_phone">
-                                  <span class="text-danger" id="error"></span>
+                                  <span class="text-danger" ></span>
                                 </div>
                                 
                           </div> 
