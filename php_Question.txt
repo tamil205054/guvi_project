@@ -1,0 +1,24 @@
+3.What is the output of the following code:?
+<?php
+  $a = '1';
+  $b = &$a;
+  $b = "2$b";
+  echo $a.", ".$b;
+?>
+a) 21,21
+b) 21,12
+c) 12,21
+d) 12,12
+
+4.What is the output of the following code:?
+<?php
+$i = 016;
+echo $i / 2;
+?>
+a)08
+b)8
+c)7
+d)Invalid numeric literal
+The Output should be 7. The leading zero indicates an octal number in PHP, so the number evaluates to the decimal number 14 instead to decimal 16
+
+5.
