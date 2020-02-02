@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid bg-img">
+		<div class="row">
+		<div class="col-md-4 col-lg-4 col-xs-1"></div>
+		<div class="col-md-4 col-lg-4 col-xs-10">
+			<form id="signup" class="box">
+				<h3 class="text-color">My To Do List Sign-up</h3>
+			 <!-- 	<div class="text-center">
+				<img src="img/logo.svg" class="img img-responsive img-circle">					
+				</div> -->
+				<div class="form-group">
+					<label for="uname">Username</label>
+					<input type="text" name="uname" autocomplete="off" id="uname" class="form-control" placeholder="username">
+					<span class="text-danger text-bold" id="uname_error"></span>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" autocomplete="off" id="email" class="form-control" placeholder="email">
+					<span class="text-danger text-bold" id="email_error"></span>
+				</div>
+				<div class="form-group">
+					<label for="pwd">password</label>
+					<input type="password" name="pwd" id="pwd" class="form-control" placeholder="password">
+					<span class="text-danger text-bold" id="pwd_error"></span>
+				</div>
+				<div class="form-group">
+					<label for="cpwd">confirm password</label>
+					<input type="password" name="cpwd" id="cpwd" class="form-control" placeholder="confirm password">
+					<span class="text-danger text-bold" id="cpwd_error"></span>
+				</div>
+				<input type="submit" name="sub" class="btn  btn-block text-bold">
+<hr>
+<p class="text-center">Already registered User?<a href="login.html" class="text-primary text-bold">Log in </a> </p>
+			</form>
+		</div> 
+		</div>
+	</div> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<script src="js/main.js"></script>
+
+
+</body>
+</html>

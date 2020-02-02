@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Boot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+	<header>
+		<div class="logo">To Do List</div>
+		<div class="menu-toggle"></div>
+		<nav>
+			<ul>
+				<li><a href="#" class="a" data-toggle="modal" data-target="#exampleModal">My To Do</a></li>
+				<li><a href="logout.php" class="a">Logout</a></li>
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+	 </header>
+	 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">My To Do List</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body-bg">
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	 <div class="container">
+	 	<div class="row">
+	 		
+	 	<div class="float-right"><p>Welcome <span id="user-name" class="text-info text-h3"></span></p></div>
+	 	</div>
+	 	
+	 	<div class="row">
+	 		<input type="hidden" id="userid"> 
+	 		<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+	 			<form class="box">
+
+	 				<h3 class="text-primary text-center">My To Do</h3>
+ 					<div class="list-group" id="add-to-do-list">
+  
+					</div>
+	 			</form>	
+	 		</div>
+	 		<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+	 			<form class="box" id="add-to-do">
+	 				<h3 class="text-primary text-center">Add To Do</h3>
+	 			
+	 				<div class="form-group">
+  						<textarea class="form-control" required="required" rows="5" id="des" placeholder="task"></textarea>
+	 				</div>
+
+	 				<input type="submit" name="add" id="" class="btn btn-primary btn-block" value="add">
+	 			</form>
+	 		</div>
+	 	</div>
+	 </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/add-to-do.js"></script>
+</body>
+</html>
